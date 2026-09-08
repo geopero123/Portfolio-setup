@@ -10,7 +10,7 @@ Every tool runs entirely in the browser. No backend, no upload, no API keys.
 | --- | --- | --- | --- |
 | 1 | [`01-file-converter`](./01-file-converter) | Images ↔ PNG/JPG/WEBP/GIF/PDF, DOCX → HTML/MD/TXT, CSV ↔ JSON | ✅ Built |
 | 2 | [`02-pdf-toolkit`](./02-pdf-toolkit) | Merge, split, compress PDFs; images ↔ PDF pages | ✅ Built |
-| 3 | `03-image-compressor` | Bulk compress and resize with live preview | Planned |
+| 3 | [`03-image-compressor`](./03-image-compressor) | Bulk compress and resize with live preview | ✅ Built |
 | 4 | `04-qr-generator` | QR codes (URL, wifi, vCard) and barcodes | Planned |
 | 5 | `05-markdown-to-pdf` | Live markdown editor with styled PDF export | Planned |
 
