@@ -12,7 +12,7 @@ Every tool runs entirely in the browser. No backend, no upload, no API keys.
 | 2 | [`02-pdf-toolkit`](./02-pdf-toolkit) | Merge, split, compress PDFs; images ↔ PDF pages | ✅ Built |
 | 3 | [`03-image-compressor`](./03-image-compressor) | Bulk compress and resize with live preview | ✅ Built |
 | 4 | [`04-qr-generator`](./04-qr-generator) | QR codes (URL, wifi, vCard) and barcodes | ✅ Built |
-| 5 | `05-markdown-to-pdf` | Live markdown editor with styled PDF export | Planned |
+| 5 | [`05-markdown-to-pdf`](./05-markdown-to-pdf) | Live markdown editor with styled PDF export | ✅ Built |
 
 ## Running any of them
 
@@ -23,6 +23,12 @@ npm run dev
 ```
 
 Each folder has its own README covering libraries, limits, and deployment.
+
+## What each one actually does
+
+Every tool does its work with real libraries and real output, verified by a
+Playwright suite that asserts on the produced bytes — decoded QR codes, extracted
+PDF text, image magic numbers — rather than on the screen.
 
 ## Shared conventions
 
